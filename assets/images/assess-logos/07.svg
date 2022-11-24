@@ -1,0 +1,22 @@
+<svg id="_07" data-name="07" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.105" height="15.082" viewBox="0 0 29.105 15.082">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_171" data-name="Rectangle 171" width="29.105" height="15.081" fill="none" stroke="#707070" stroke-width="1.5"/>
+    </clipPath>
+  </defs>
+  <line id="Line_47" data-name="Line 47" y1="9.221" transform="translate(24.988 2.93)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+  <g id="Group_439" data-name="Group 439" transform="translate(0 0)">
+    <g id="Group_438" data-name="Group 438" clip-path="url(#clip-path)">
+      <line id="Line_48" data-name="Line 48" x2="4.118" transform="translate(24.988 7.541)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Line_49" data-name="Line 49" y1="15.081" transform="translate(21.577 0)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <line id="Line_50" data-name="Line 50" y2="9.221" transform="translate(4.118 2.93)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+  <g id="Group_441" data-name="Group 441" transform="translate(0 0)">
+    <g id="Group_440" data-name="Group 440" clip-path="url(#clip-path)">
+      <line id="Line_51" data-name="Line 51" x1="4.118" transform="translate(0 7.541)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Line_52" data-name="Line 52" y2="15.081" transform="translate(7.528 0)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <line id="Line_53" data-name="Line 53" x1="14.049" transform="translate(7.528 7.541)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.5"/>
+</svg>

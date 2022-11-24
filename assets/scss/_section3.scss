@@ -1,0 +1,33 @@
+@import "base";
+.section-3 {
+  display: flex;
+  justify-content: center;
+  background-color: #f7e2d0;
+  color: black;
+  padding: 5em 2em;
+  text-align: center;
+
+  .packages {
+    max-width: $max-message-width;
+    .heading-3 {
+      font-family: "mfred";
+      font-size: 2.5em;
+      letter-spacing: 0.12em;
+      margin: 0;
+    }
+
+    .message-3 {
+      font-family: "AW Conqueror Didot";
+      font-weight: 500;
+      font-size: 1.5em;
+      margin: 1em 0;
+      padding-bottom: 0.5em;
+
+      span {
+        display: block;
+        font-family: "mfred";
+        letter-spacing: 0.1em;
+      }
+    }
+  }
+}

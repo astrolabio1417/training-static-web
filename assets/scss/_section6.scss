@@ -1,0 +1,47 @@
+@import "base";
+
+.section-6 {
+  display: flex;
+  justify-content: center;
+  padding: 5em 2em;
+  color: black;
+
+  .grid {
+    max-width: 85em;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+
+    .left,
+    .right {
+      flex: 45%;
+    }
+
+    .left {
+      .difference {
+        text-align: center;
+
+        h1 {
+          font-family: "mfred";
+          font-size: 4.3em;
+          font-weight: 300;
+          margin: 0;
+          letter-spacing: 0.16em;
+        }
+        p {
+          font-family: "AW Conqueror Didot";
+          font-size: 1.375em;
+          font-weight: 500;
+          line-height: 1.27;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  .section-6 {
+    padding: 3em 2em;
+  }
+}

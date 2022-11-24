@@ -1,0 +1,17 @@
+<svg id="_01" data-name="01" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.958" height="23.958" viewBox="0 0 23.958 23.958">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_165" data-name="Rectangle 165" width="23.958" height="23.958" fill="none" stroke="#707070" stroke-width="1.5"/>
+    </clipPath>
+  </defs>
+  <g id="Group_425" data-name="Group 425" transform="translate(0 0)">
+    <g id="Group_424" data-name="Group 424" clip-path="url(#clip-path)">
+      <line id="Line_35" data-name="Line 35" y2="23.958" transform="translate(11.979 0)" fill="none" stroke="#211e1f" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Line_36" data-name="Line 36" x1="23.958" transform="translate(0 11.979)" fill="none" stroke="#211e1f" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <line id="Line_37" data-name="Line 37" x1="4.478" y1="4.478" transform="translate(3.509 3.509)" fill="none" stroke="#211e1f" stroke-miterlimit="10" stroke-width="1.5"/>
+  <line id="Line_38" data-name="Line 38" x1="4.478" y1="4.478" transform="translate(15.973 15.972)" fill="none" stroke="#211e1f" stroke-miterlimit="10" stroke-width="1.5"/>
+  <line id="Line_39" data-name="Line 39" y1="4.478" x2="4.478" transform="translate(15.973 3.509)" fill="none" stroke="#211e1f" stroke-miterlimit="10" stroke-width="1.5"/>
+  <line id="Line_40" data-name="Line 40" y1="4.478" x2="4.478" transform="translate(3.509 15.972)" fill="none" stroke="#211e1f" stroke-miterlimit="10" stroke-width="1.5"/>
+</svg>

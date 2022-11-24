@@ -1,0 +1,23 @@
+.section-5 {
+  background-color: #9ea38c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-family: "mfred";
+  padding: 3em 0;
+
+  b {
+    display: block;
+    letter-spacing: 0.16em;
+    line-height: 1.12;
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    line-height: 1.6;
+  }
+}

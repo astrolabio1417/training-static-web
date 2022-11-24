@@ -1,0 +1,94 @@
+@import "base";
+$bg-image: url(../images/hero-bg.jpg);
+$bg-image-mobile: url(../images/mobile-hero.png);
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  background-image: $bg-image;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+  .hero-img {
+    position: absolute;
+    right: 5em;
+    height: 47em;
+    width: 37em;
+  }
+
+  .heading-1 {
+    display: block;
+    font-size: 4em;
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+
+  .darrow {
+    position: absolute;
+    bottom: 0;
+    color: green;
+    padding: 2em 0;
+
+    img {
+      height: 1.3em;
+    }
+  }
+}
+
+.section-1-1 {
+  display: none;
+  background-color: black;
+  padding: 2em;
+
+  .message {
+    padding: 2em 0;
+  }
+}
+
+.message {
+  max-width: $max-message-width;
+  text-align: center;
+
+  p {
+    font-family: "AW Conqueror Didot";
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin-bottom: 2em;
+  }
+
+  .book-btn {
+    padding: 0.6em 3em;
+    background-color: white;
+    color: rgb(59, 59, 59);
+    font-weight: bolder;
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1 {
+    background-image: $bg-image-mobile !important;
+
+    .message {
+      display: none;
+    }
+    .hero-img {
+      right: 0;
+      width: 16em;
+      height: 20em;
+    }
+  }
+
+  .section-1-1 {
+    display: block !important;
+  }
+}

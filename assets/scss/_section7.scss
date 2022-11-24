@@ -1,0 +1,28 @@
+@import "base";
+
+.section-7 {
+  display: flex;
+  justify-content: center;
+  padding: 5em 2em;
+  color: black;
+  background-color: #bacadb;
+
+  .assessment {
+    max-width: $max-message-width;
+    text-align: center;
+
+    b {
+      font-family: "mfred";
+      font-size: 2.5em;
+      letter-spacing: 0.15em;
+      font-weight: 500;
+    }
+
+    p {
+      font-family: "AW Conqueror Didot";
+      font-size: 1.3em;
+      line-height: 1.2em;
+      padding: 0.9em 0;
+    }
+  }
+}
