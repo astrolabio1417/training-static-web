@@ -36,19 +36,28 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.7960784314);
 }
 
 .nav-container {
@@ -69,6 +78,9 @@ a {
 }
 .nav-container .nav-item:hover {
   border-bottom: solid white 0.1em;
+}
+.nav-container .nav-item {
+  font-weight: 0.1em !important;
 }
 .nav-container .nav-logo {
   height: 100%;
@@ -173,19 +185,28 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.7960784314);
 }
 
 .section-1 {
@@ -235,7 +256,7 @@ a {
 }
 
 .message {
-  max-width: 50em;
+  max-width: 67em;
   text-align: center;
 }
 .message p {
@@ -243,14 +264,6 @@ a {
   font-size: 1.3em;
   line-height: 1.2;
   margin-bottom: 2em;
-}
-.message .book-btn {
-  padding: 0.6em 3em;
-  background-color: white;
-  color: rgb(59, 59, 59);
-  font-weight: bolder;
-  font-size: 1.3em;
-  letter-spacing: 0.2em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -307,19 +320,28 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.7960784314);
 }
 
 .section-2 {
@@ -331,7 +353,7 @@ a {
 }
 .section-2 .treatments-wrapper .treatments {
   padding: 0 2em;
-  max-width: 50em;
+  max-width: 67em;
 }
 .section-2 .treatments-wrapper .treatments .heading-2 {
   display: block;
@@ -473,19 +495,28 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.7960784314);
 }
 
 .section-3 {
@@ -497,7 +528,7 @@ a {
   text-align: center;
 }
 .section-3 .packages {
-  max-width: 50em;
+  max-width: 67em;
 }
 .section-3 .packages .heading-3 {
   font-family: "mfred";
@@ -556,19 +587,28 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.7960784314);
 }
 
 .section-4 {
@@ -583,12 +623,12 @@ a {
 .section-4 .understand-your-body {
   text-align: center;
   padding: 5em 2em;
-  max-width: 50em;
+  max-width: 67em;
 }
 .section-4 .understand-your-body .heading-4 {
   font-family: "mfred";
   font-size: 4em;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.2em;
   margin: 0;
 }
@@ -596,6 +636,7 @@ a {
   font-family: "AW Conqueror Didot";
   font-weight: 500;
   font-size: 1.5em;
+  padding-bottom: 2em;
 }
 .section-4 .banner-container {
   display: flex;
@@ -714,19 +755,28 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.7960784314);
 }
 
 .section-6 {
@@ -806,19 +856,28 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.7960784314);
 }
 
 .section-7 {
@@ -829,7 +888,7 @@ a {
   background-color: #bacadb;
 }
 .section-7 .assessment {
-  max-width: 50em;
+  max-width: 67em;
   text-align: center;
 }
 .section-7 .assessment b {
@@ -859,7 +918,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 75;
+  flex: 60;
 }
 .footer-wrapper .footer .left b {
   font-size: 2.5em;
@@ -875,7 +934,7 @@ a {
   font-family: "CircularXX";
   font-weight: 100;
   line-height: 1.4;
-  flex: 35;
+  flex: 40;
 }
 .footer-wrapper .footer .right ul {
   list-style: none;

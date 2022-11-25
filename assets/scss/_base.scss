@@ -1,6 +1,6 @@
 $base-font-size: 16px;
 $color: white;
-$max-message-width: 50em;
+$max-message-width: 67em;
 
 @font-face {
   font-family: "mfred";
@@ -43,17 +43,26 @@ a {
 .btn-black {
   font-size: 1.3em;
   color: white;
-  padding: 0.5em 4em;
+  padding: 0.7em 4em;
   background-color: black;
   letter-spacing: 0.1em;
   margin: 1em 0;
 }
 
+.btn-black:hover {
+  color: black;
+  background-color: white;
+}
+
 .btn-white {
-  padding: 0.6em 3em;
+  padding: 0.7em 4em;
   background-color: white;
   color: rgb(59, 59, 59);
   font-weight: bolder;
   font-size: 1.3em;
   letter-spacing: 0.2em;
+}
+
+.btn-white:hover {
+  background-color: #ffffffcb;
 }
