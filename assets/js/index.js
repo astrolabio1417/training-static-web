@@ -52,7 +52,7 @@ function navbarAnimation() {
   return gsap.to(".nav-container", {
     scrollTrigger: {
       trigger: ".section-1",
-      start: "top bottom",
+      start: "top top",
       scrub: true,
     },
     backgroundColor: "rgba(0, 0, 0, 0.8)",
