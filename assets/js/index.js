@@ -65,8 +65,8 @@ function section1Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-1",
-        start: "top bottom",
+        trigger: ".heading-1",
+        start: "50px bottom",
       },
     })
     .from([".heading-1", ".nav-container", ".hero-img"], {
@@ -89,8 +89,8 @@ function section1_1Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-2",
-        start: "top bottom",
+        trigger: ".section-1-1 > div > *",
+        start: "50px bottom",
       },
     })
     .from(".section-1-1 > div > *", {
@@ -104,7 +104,7 @@ function heroImgAnimation() {
   return gsap.to(".hero-img", {
     scrollTrigger: {
       trigger: ".section-2",
-      start: "top bottom",
+      start: "center bottom",
       scrub: true,
     },
     y: 250,
@@ -116,8 +116,8 @@ function section2Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-2",
-        start: "top bottom",
+        trigger: ".treatments > *",
+        start: "50px bottom",
       },
     })
     .from(".treatments > *", animation);
@@ -128,7 +128,7 @@ function carousellAnimation() {
     ...animation,
     scrollTrigger: {
       trigger: ".slideshow-desktop",
-      start: "top bottom",
+      start: "50px bottom",
     },
     stagger: 0.3,
   });
@@ -137,7 +137,7 @@ function carousellAnimation() {
     ...animation,
     scrollTrigger: {
       trigger: ".slideshow-mobile",
-      start: "top bottom",
+      start: "50px bottom",
     },
     stagger: 0.3,
   });
@@ -150,7 +150,7 @@ function section3Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-3",
+        trigger: ".section-3 .packages > *",
         start: "40px bottom",
       },
     })
@@ -162,7 +162,7 @@ function section4Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-4",
+        trigger: ".section-4 .understand-your-body > *",
         start: "40px bottom",
       },
     })
@@ -182,7 +182,7 @@ function section5Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-5",
+        trigger: ".section-5 > p",
         start: "40px bottom",
       },
     })
@@ -194,7 +194,7 @@ function section6Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-6",
+        trigger: ".difference > *",
         start: "40px bottom",
       },
     })
@@ -206,7 +206,7 @@ function section7Animation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: ".section-7",
+        trigger: ".assessment",
         start: "40px bottom",
       },
     })
@@ -218,8 +218,8 @@ function footerAnimation() {
     .timeline({
       ease: "power2.inout",
       scrollTrigger: {
-        trigger: "footer",
-        start: "top bottom",
+        trigger: ".footer .left > div > *",
+        start: "50px bottom",
       },
     })
     .from([".footer .left > div > *", ".footer .right"], animation);
