@@ -31,7 +31,6 @@ $(document).ready(function () {
     slidesToShow: 1,
     rows: 1,
     variableWidth: true,
-    adaptiveHeight: true,
     centerMode: true,
     centerPadding: "40px",
   });

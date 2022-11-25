@@ -26,6 +26,7 @@ $(document).ready(function () {
 
   gsap.registerPlugin(ScrollTrigger);
   navbarAnimation();
+  heroImgAnimation();
   carousellAnimation();
   section1Animation();
   section2Animation();
@@ -50,7 +51,7 @@ function navbarAnimation() {
   return gsap.to(".nav-container", {
     scrollTrigger: {
       trigger: ".section-1",
-      start: "top end",
+      start: "top bottom",
       scrub: true,
     },
     backgroundColor: "rgba(0, 0, 0, 0.8)",
@@ -80,6 +81,17 @@ function section1Animation() {
       },
       "-=0.2"
     );
+}
+
+function heroImgAnimation() {
+  return gsap.to(".hero-img", {
+    scrollTrigger: {
+      trigger: ".section-2",
+      start: "top bottom",
+      scrub: true,
+    },
+    y: 250,
+  });
 }
 
 function section2Animation() {

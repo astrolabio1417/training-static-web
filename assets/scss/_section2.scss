@@ -96,10 +96,10 @@
 
     .slick-dots {
       list-style-type: none;
+      padding: 0;
 
       li {
         display: inline-block;
-        margin: 0 0.2em;
 
         button {
           height: 0.3em;
@@ -108,6 +108,10 @@
           border: none;
           color: transparent;
           cursor: pointer;
+        }
+
+        &:not(:last-child) {
+          margin-right: 0.2em;
         }
       }
 
@@ -120,7 +124,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 918px) {
   .section-2 {
     .slideshow-desktop {
       display: none !important;
@@ -128,12 +132,16 @@
 
     .slideshow-mobile {
       display: block !important;
-      // width: 25em !important;
-      // width: 100%;
 
       .slidshow-item {
         height: auto !important;
         width: 100vw !important;
+
+        img:first-child {
+          height: 20em !important;
+          object-fit: cover;
+          object-position: center;
+        }
       }
     }
   }
