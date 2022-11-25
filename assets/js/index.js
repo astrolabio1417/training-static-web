@@ -29,6 +29,7 @@ $(document).ready(function () {
   heroImgAnimation();
   carousellAnimation();
   section1Animation();
+  section1_1Animation();
   section2Animation();
   section3Animation();
   section4Animation();
@@ -81,6 +82,22 @@ function section1Animation() {
       },
       "-=0.2"
     );
+}
+
+function section1_1Animation() {
+  return gsap
+    .timeline({
+      ease: "power2.inout",
+      scrollTrigger: {
+        trigger: ".section-2",
+        start: "top bottom",
+      },
+    })
+    .from(".section-1-1 > div > *", {
+      ...animation,
+      stagger: 0.05,
+      duration: 0.5,
+    });
 }
 
 function heroImgAnimation() {
