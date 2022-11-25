@@ -8,17 +8,13 @@ $(document).ready(function () {
     slidesToScroll: 3,
     slidesToShow: 3,
     rows: 2,
-    variableWidth: true,
 
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1214,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: true,
-          variableWidth: false,
-          rows: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],
